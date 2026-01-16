@@ -21,3 +21,9 @@ console.log(checkk)
 
 const every=h.every(it=> it!=0)
 console.log(every)
+
+const g=h.find(num=>num===1)
+console.log(g)
+
+const p=h.findIndex(num=>num===12)
+console.log(p)
