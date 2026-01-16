@@ -9,3 +9,15 @@ console.log(filterr)
 
 
 h.forEach(item=> console.log(item))
+
+
+
+const total= h.reduce((sum,price)=>sum+price,0)
+console.log(total)
+
+
+const checkk= h.some(it=>it>=1)
+console.log(checkk)
+
+const every=h.every(it=> it!=0)
+console.log(every)
