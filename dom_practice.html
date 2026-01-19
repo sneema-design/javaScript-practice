@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>DOM Implementation</title>
+  <style>
+    .active {
+      color: white;
+      background: green;
+      padding: 5px;
+    }
+    .error {
+      color: red;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- DOM SELECTION -->
+  <h1 id="title">DOM Practice</h1>
+
+  <p class="text">Paragraph 1</p>
+  <p class="text">Paragraph 2</p>
+
+  <!-- CLICK EVENT -->
+  <button id="changeBtn">Change Title</button>
+
+  <hr>
+
+  <!-- INPUT EVENT -->
+  <input type="text" id="nameInput" placeholder="Type your name">
+  <p id="liveOutput"></p>
+
+  <hr>
+
+  <!-- FORM SUBMIT -->
+  <form id="myForm">
+    <input type="text" id="username" placeholder="Enter username">
+    <button type="submit">Submit</button>
+    <p id="errorMsg" class="error"></p>
+  </form>
+
+  <hr>
+
+  <!-- CREATE & REMOVE -->
+  <button id="addItem">Add Item</button>
+  <ul id="list"></ul>
+
+  <script src="dom.js"></script>
+</body>
+</html>
