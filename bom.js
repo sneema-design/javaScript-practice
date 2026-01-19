@@ -27,3 +27,6 @@ function goGoogle(){
 function goBack(){
     history.back()
 }
+window.onscroll = () => {
+  console.log("Page scrolled");
+};
